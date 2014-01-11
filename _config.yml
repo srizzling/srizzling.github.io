@@ -15,7 +15,8 @@ author:
   name:           'Sriram Venkatesh'
   url:            https://www.twitter.com/srizzling
 
-paginate:         5
+paginate:         1
+paginate_path: "blog/page:num"
 
 # Custom vars
 version:          2.0.0
