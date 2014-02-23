@@ -37,8 +37,38 @@ $('input').change(function() {
 
 createFields();
 distributeFields();
-$('#profile').addClass('animated fadeIn');
-$('.field').addClass('animated fadeInLeft');
+$('#profile').addClass('animated bounceIn');
+animateFields();
+
+function animateFields(){
+    var fields = $('.field');
+    var secs = 1;
+    fields.each(function(){
+        $(this).css('-webkit-animation-delay',  secs + "s");
+        secs = secs + 0.3;       
+    })
+    fields.addClass('animated bounceIn');    
+}
+
+
+$(".fill-div").fancybox({
+    width       : 600,
+    height      : 600,
+    autoSize    : false,
+    padding : 0,
+    fitToView: false,
+    beforeShow: function(){
+        $(".fancybox-skin").css("backgroundColor","transparent");
+    },
+    helpers : {
+        overlay : {
+            css : {
+                'background' : 'rgba(51, 51, 51, 1)'
+            }
+        }
+    }
+});
+
 $('.field').addClass('hollow');
 
 

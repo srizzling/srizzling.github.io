@@ -1,30 +1,33 @@
 ---
 layout: page
-title: About
+title: About Me
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+<div class="homepage-title" style="font: 400 30px/3 'Oleo Script', Helvetica, sans-serif;color:#FFCC00;">
+About Me
+</div>
+
+<p>
+<span class="homepage-bold"> Hi! </span>  My name is Sriram Venkatesh and I love making websites!
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+<p>
+I am a 21 year old guy, living in Windy Wellington, New Zealand.  I have been making websites ever since I was 10.
+</p>
 
-There are currently two themes built on Poole:
+<p>
+ I have practical knowledge in JavaScript, Ruby on Rails and PHP. I am currently studying towards my Network Engineering Degree at Victoria University. I am also equipped with paid experience in test automation and deployment pipelines with a TDD and BDD focus. 
+</p>
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+<p>
+In my spare time, I am either: tinkering with my Raspberry Pi,  playing indoor cricket with my friends or participating in Indian Cultural Events.
+</p>
 
-Learn more and contribute on [GitHub](https://github.com/poole).
 
-## Setup
 
-Some fun facts about the setup of this project include:
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.org), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
 
-Thanks for reading!
+
+
+

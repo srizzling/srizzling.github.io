@@ -1,13 +1,24 @@
 #circle-nav {width: 500px; height:500px; position: relative; margin-top: 5%; margin-bottom: -5%;}
 #center {width:50%; height:50%; position: absolute; left:25%; top:27%; }
-.field { -webkit-animation-delay: 2s; -webkit-animation-duration: 3s; width: 100px; height: 100px; border-radius: 50%; position: absolute; background: #669966; line-height: 100px; }
+.field {width: 100px; height: 100px; border-radius: 50%; position: absolute; background: #669966; line-height: 100px; }
 
 a.fill-div {
     color:white;
+    font: 400 30px/3 'Oleo Script', Helvetica, sans-serif;
     display: block;
     height: 100%;
     width: 100%;
     text-decoration: none;
+}
+
+.fancybox-wrap {
+position: absolute;
+  top: 6% !important; 
+}
+
+.fancybox-close {
+    right: 20px !important;
+    top: 12px !important;
 }
 
 a.fill-div:hover{
