@@ -32,10 +32,17 @@
             ]);
           });
 
+          console.log(jsonData.responseJSON[0].words);
+
+          currentWords = jsonData.responseJSON[0].words;
+
+          var div = document.getElementById('currentWordCount');
+          div.innerHTML = '<b> Current Word Count: </b>' + currentWords;
+
           var chart = new google.visualization.LineChart($('#chart').get(0));
 
           chart.draw(data, {
-            title: 'Sriram honors wordcount'
+            title: 'Current Honours Wordcount'
           });
 
         });
@@ -55,5 +62,9 @@
   </head>
   <body>
     <div id="chart" style="width: 100%;"></div>
+    <div id="currentWordCount"> </div>
+
+    <b> Current Build </b>
+    <a href="https://www.sharelatex.com/github/repos/srizzling/honors-report-latex/builds/latest/output.pdf"><img src="https://www.sharelatex.com/github/repos/srizzling/honors-report-latex/builds/latest/badge.svg"> </a>
   </body>
 </html>
